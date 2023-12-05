@@ -5,14 +5,18 @@
 - Hugo Ornelas: [Linkedin](https://www.linkedin.com/in/hugopassosornelas/)
 - Iuri Silva: [Linkedin](#)
 - Magnus Bittencourt : [Linkedin](#)
-- Pedro Augusto: [Linkedin](#)
-- Vinicius Gomes: [Linkedin](#)
+<!-- - Pedro Augusto: [Linkedin](#) -->
+<!-- - Vinicius Gomes: [Linkedin](#) -->
 
 ## Tema
 
-**Site de anúncios para contratação de serviços (integrar consumidores e prestadores de serviços de uma forma simples e direta).**
+**Site de anúncios para contratação de serviços (integrar consumidores e prestadores de serviços com foco nas classes C e D de uma forma simples e direta).**
 
 _Uber dos pequenos serviços!_
+
+## Marca criada
+
+<img loading="lazy" src="/img/workaki-logo.svg" width="300" height="300"/>
 
 ## [Objetivos de Desenvolvimento Sustentável atacados](https://brasil.un.org/pt-br/sdgs)
 
