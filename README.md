@@ -3,7 +3,7 @@
 ## Grupo 3 - Integrantes:
 
 - Hugo Ornelas: [Linkedin](https://www.linkedin.com/in/hugopassosornelas/)
-- Iuri Silva: [Linkedin](#)
+- Iuri Silva: [https://www.linkedin.com/in/iuri-silva-713737104/]
 - Magnus Bittencourt : [Linkedin](#)
 <!-- - Pedro Augusto: [Linkedin](#) -->
 <!-- - Vinicius Gomes: [Linkedin](#) -->
