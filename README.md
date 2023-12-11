@@ -5,8 +5,8 @@
 - Hugo Ornelas: [Linkedin](https://www.linkedin.com/in/hugopassosornelas/)
 - Iuri Silva: [Linkedin](#)
 - Magnus Bittencourt : [Linkedin](#)
+- Vinicius Gomes: [Linkedin](#)
 <!-- - Pedro Augusto: [Linkedin](#) -->
-<!-- - Vinicius Gomes: [Linkedin](#) -->
 
 ## Tema
 
