@@ -1,0 +1,92 @@
+/*anucio em destaque*/
+
+.destaque {
+    background-color: #f5f5f5; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px; 
+    width: 83%;
+}
+
+.destaque h2 {
+    color: #999; 
+    margin-bottom: 10px;
+}
+
+.quadrilatero {
+    background-color: #e6e6e6; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.quadrilatero legend {
+    color: rgb(114, 114, 136); 
+}
+
+.quadrilatero ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quadrilatero ul li {
+    color: rgb(71, 71, 207); 
+    margin-bottom: 5px;
+}
+
+
+
+/*categoria de serviços*/
+
+.anuncios-em-destaque {
+    background-color: #f5f5f5; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.categorias {
+    color: #999; 
+    margin-bottom: 20px; 
+}
+
+.servicos {
+    background-color: #e6e6e6; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 83%;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 15px; /* Espaço entre os grupos de input */
+}
+
+label {
+    display: block; /* Colocar os labels em linhas separadas */
+    margin-bottom: 5px; /* Espaço abaixo dos labels */
+}
+
+select,
+input[type="text"] {
+    width: 100%; /* Preencher a largura disponível */
+    padding: 8px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    border: 1px solid #ccc; /* Borda */
+}
+
+ul.categorias-lista {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover espaçamento padrão */
+}
+
+ul.categorias-lista li {
+    margin-bottom: 5px; /* Espaço entre os itens da lista */
+}
+

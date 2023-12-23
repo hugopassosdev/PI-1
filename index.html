@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>workaki</title>
+    <link rel="stylesheet" href="headerAndFooter.css">
+    <link rel="stylesheet" href="indexStyle.css">
 </head>
 
 <body>
@@ -28,36 +30,48 @@
     <main>
         <div class="banner"><img src="/img/banner-home.png" alt="banner da home" height="400"></div>
         <div class="anuncios-em-destaque">
-            <h2>Anúncios em destaque</h2>
+            <div class="destaque">
+                <h2>Anúncios em destaque</h2>
+                <div class="quadrilatero">
+                    <fieldset>
+                        <legend>Anúncios</legend>
+                        <ul>
+                            <li>Anúncio 1</li>
+                            <li>Anúncio 2</li>
+                            <li>Anúncio 3</li>
+                            <li>Anúncio 4</li>
+                            <li>Anúncio 5</li>
+                        </ul>
+                    </fieldset>
+                </div>
+            </div>
+            
+            <h2 class="categorias">Categorias de serviço</h2>
+            <div class="servicos">
                 <fieldset>
-                    <legend>Anúncios</legend>
-                    <ul>
-                        <li>Anúncio 1</li>
-                        <li>Anúncio 2</li>
-                        <li>Anúncio 3</li>
-                        <li>Anúncio 4</li>
-                        <li>Anúncio 5</li>
-                    </ul>
-                </fieldset>
-                <h2 class="categorias">Categorias de serviço</h2>
-                <fieldset>
+                    <div class="destaque">
                     <legend>Serviços</legend>
-                    <label for="categoria">Categoria:</label>
-                    <select name="categoria">
-                        <option value="cat1">Categoria 1</option>
-                        <option value="cat2">Categoria 2</option>
-                        <option value="cat3">Categoria 3</option>
-                    </select>
-                    <label for="palavra-chave">Pesquisa por palavra chave:</label>
-                    <input type="text">
-                    </select>
-                    <label for="categoria">Categoria:</label>
-                    <select name="localidade">
-                        <option value="loc1">Localidade 1</option>
-                        <option value="loc2">Localidade 2</option>
-                        <option value="loc3">Localidade 3</option>
-                    </select>
-                    <ul>
+                    <div class="input-group">
+                        <label for="categoria">Categoria:</label>
+                        <select name="categoria">
+                            <option value="cat1">Categoria 1</option>
+                            <option value="cat2">Categoria 2</option>
+                            <option value="cat3">Categoria 3</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="palavra-chave">Pesquisa por palavra chave:</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-group">
+                        <label for="localidade">Localidade:</label>
+                        <select name="localidade">
+                            <option value="loc1">Localidade 1</option>
+                            <option value="loc2">Localidade 2</option>
+                            <option value="loc3">Localidade 3</option>
+                        </select>
+                    </div>
+                    <ul class="categorias-lista">
                         <li>Categoria 1</li>
                         <li>Categoria 2</li>
                         <li>Categoria 3</li>
@@ -69,8 +83,11 @@
                         <li>Categoria 9</li>
                         <li>Categoria 10</li>
                     </ul>
+
+                
                 </fieldset>
-        </div>
+            </div>
+            </div>
     </main>
     <!-- rodapé -->
     <footer>
