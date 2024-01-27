@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>workaki</title>
     <link rel="stylesheet" href="/estilos/headerAndFooter.css">
 </head>
 
@@ -14,27 +14,32 @@
         <img src="/img/workaki-logo-line.png" alt="logo workaki" width="200">
         <nav>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./educacao.html">Educação</a></li>
-                <li><a href="#">Comunidade</a></li>
-                <li><a href="./avaliacao.html">Avaliações</a></li>
+                <li><a href="/meus-servicos.html">Meus Serviços</a></li>
+                <li><a href="../pendentes.html">Pendentes</a></li>
+                <li><a href="../concluidos.html">Concluídos</a></li>
+                <li><a href="../meu-saldo.html">Meu Saldo</a></li>
+                <li><a href="index.html">Sair</a></li>
             </ul>
             <ul>
                 <li><a href="#">Suporte</a></li>
-                <li><a href="./login.html">Login</a></li>
-                <li><a href="meus-servicos.html">Login prestador</a></li>
             </ul>
         </nav>
     </header>
+
     <!-- main -->
     <main>
-        <h1>Política de privacidade</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sequi corporis, libero facilis vel ducimus. Fuga
-            sit
-            eos quidem. Hic quos enim fuga earum a ratione provident cupiditate nobis placeat?</p>
-
-        <input type="checkbox"><a href="./cadastro.html">Concordo</a></input>
+        <h1>Adicionar Serviço</h1>
+        <form>
+            <label for="nomeServico">Nome do Serviço:</label>
+            <input type="text" id="nomeServico" name="nomeServico" required>
+            <br>
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+            <br><br>
+            <input type="submit" value="Confirmar Adição">
+        </form>
     </main>
+
     <!-- rodapé -->
     <footer>
         <img src="/img/workaki-logo.svg" alt="logo workaki" width="200">

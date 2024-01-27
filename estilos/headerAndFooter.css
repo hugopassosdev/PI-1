@@ -20,7 +20,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+<<<<<<< HEAD
     color: black; 
+=======
+    color: #333; 
+>>>>>>> main
 }
 
 nav ul li a:hover {

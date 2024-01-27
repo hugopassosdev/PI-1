@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title >Cadastro</title>
+    <link rel="stylesheet" href="/estilos/headerAndFooter.css">
+    <link rel="stylesheet" href="./estilos/cadastro.css">
 </head>
 
 <body>
     <!-- cabeçalho -->
     <header>
-        <img src="/img/workaki-logo-line.png" alt="logo workaki" width="200">
+        <img  src="/img/workaki-logo-line.png" alt="logo workaki" width="200">
         <nav>
-            <ul>
+            <ul >
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./educacao.html">Educação</a></li>
                 <li><a href="#">Comunidade</a></li>
@@ -21,32 +23,36 @@
             <ul>
                 <li><a href="#">Suporte</a></li>
                 <li><a href="./login.html">Login</a></li>
+                <li><a href="meus-servicos.html">Login prestador</a></li>
             </ul>
         </nav>
     </header>
     <!-- main -->
-    <main>
+
+    <main class="Formulario">
         
-        <fieldset>
-            <h1>INSCREVA-SE</h1>
+        <fieldset id = "inscreveId">
+            <h1 >INSCREVA-SE</h1>
         </fieldset>
-        <form action="">
-            <fieldset>
-                <h1><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">Entrar com Google</a></h1>
+
+        <form action="" >
+            <fieldset id="google">
+                <h1><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1" ><img src="./img/32704485_m011t0447_b_social_sign_18sep22-removebg-preview.png" >Google</a></h1>
             </fieldset>
-            <fieldset>
-                <h1><a href="https://www.facebook.com/?locale=pt_BR">Entrar com Facebook</a></h1>
+            <fieldset id = "facebook">
+                <h1><a href="https://www.facebook.com/?locale=pt_BR" ><img src="./img/3D_Square_with_Facebook_Logo-removebg-preview.png" alt="">Facebook</a></h1>
                 </h1>
             </fieldset>
-            <h3>Ou</h3>
+
+            <h3 id = "outra">Ou</h3>
             <div>
                 <section>
-                    <label for="text">Email</label>
-                    <input type="text">
+                    <label for="text" id="labelEmail">Email</label>
+                    <input type="text" id="email">
                 </section>
                 <section>
-                    <label for="password">Senha</label>
-                    <input type="password">
+                    <label for="password" id="labelSenha">Senha</label>
+                    <input type="password" id = "Senha">
                 </section>
                 <section>
                     <label for="password">Confirme sua senha</label>
@@ -55,16 +61,18 @@
             </div>
         </form>
      
-        <div>
-            <input type="checkbox" name="Politica" /><a href="./politica.html">Politica de Privacidade</a>
+        <div id ="checkbox1">
+            <input type="checkbox" name="Politica" id="politica"/><a href="./politica.html">Politica de Privacidade</a>
+        </div>
+        <div id ="checkbox2">
+            <input type="checkbox" name="Prestador" id="prestador"/><a href="./info-prestador.html">Prestador?</a>
         </div>
         <div>
-            <input type="checkbox" name="Prestador" /><a href="./info-prestador.html">Prestador?</a>
-        </div>
-        <div>
-            <button><a href="./index.html">CriarConta</a></button>
+            <button id="botaoCriar"><a href="./index.html">CriarConta</a></button>
         </div>
     
+
+
     </main>
     <!-- rodapé -->
     <footer>
@@ -74,7 +82,7 @@
             <li>Hugo Ornelas</li>
             <li>Iuri Silva</li>
             <li>Magnus Bittencourt</li>
-            <!-- <li>Vinicius Gomes</li> -->
+            <li>Vinicius Gomes</li>
         </ul>
         <img src="/img/proz-logo.svg" alt="logo proz" width="200">
     </footer>
