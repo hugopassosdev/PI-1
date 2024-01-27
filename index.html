@@ -29,28 +29,52 @@
     </header>
     <!-- main -->
     <main>
-        <div class="banner"><img src="/img/banner-home.png" alt="banner da home" height="400"></div>
-        <div class="anuncios-em-destaque">
-            <div class="destaque">
-                <h2>Anúncios em destaque</h2>
-                <div class="quadrilatero">
-                    <fieldset>
-                        <legend>Anúncios</legend>
-                        <ul>
-                            <li>Anúncio 1</li>
-                            <li>Anúncio 2</li>
-                            <li>Anúncio 3</li>
-                            <li>Anúncio 4</li>
-                            <li>Anúncio 5</li>
-                        </ul>
-                    </fieldset>
+        <div class="banner"><img src="/img/banner-home.png" alt="banner da home" height="700"></div>
+
+        <!-- Anúncios em destaque -->
+        <section class="anuncios-em-destaque">
+            <h2 class="categorias">Anúncios em destaque</h2>
+
+            <div class="anuncios-em-destaque-div">
+                <!-- Card 1 -->
+                <div class="anuncios-em-destaque-div-card">
+                    <img decoding="async" src="/img/soldador.png" alt="soldador">
+                    <h3>João Silva</h3>
+                    <h4>Soldador</h4>
+                    <p>Soldador especializado em manutenção de portões, grades e janelas. Garanta durabilidade e
+                        segurança para a sua casa!</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="anuncios-em-destaque-div-card">
+                    <img decoding="async" src="/img/webdesigner.png" alt="webdesigner">
+                    <h3>Helena Peixoto</h3>
+                    <h4>Web Designer</h4>
+                    <p>"Crie um site impressionante com nossos serviços de web design. Designs personalizados para
+                        atender às suas necessidades online."</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="anuncios-em-destaque-div-card">
+                    <img decoding="async" src="/img/baba.png" alt="babá">
+                    <h3>Isa Oliveira</h3>
+                    <p>Contrate uma babá confiável para cuidar com carinho e segurança das suas crianças. Paz de
+                        espírito para pais ocupados.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="anuncios-em-destaque-div-card">
+                    <img decoding="async" src="/img/arquiteto.png" alt="arquiteto">
+                    <h3>Enzo Valentin</h3>
+                    <p>Arquitetura contemporânea com um toque jovem. Soluções inovadoras para espaços que refletem sua personalidade e estilo de vida.</p>
                 </div>
             </div>
-            
-            <h2 class="categorias">Categorias de serviço</h2>
-            <div class="servicos">
-                <fieldset>
-                    <div class="destaque">
+        </section>
+
+        <h2 class="categorias">Categorias de serviço</h2>
+        <div class="servicos">
+            <fieldset>
+                <div class="destaque">
                     <legend>Serviços</legend>
                     <div class="input-group">
                         <label for="categoria">Categoria:</label>
@@ -85,10 +109,10 @@
                         <li>Categoria 10</li>
                     </ul>
 
-                
-                </fieldset>
-            </div>
-            </div>
+
+            </fieldset>
+        </div>
+        </div>
     </main>
     <!-- rodapé -->
     <footer>
