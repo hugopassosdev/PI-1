@@ -1,3 +1,11 @@
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 /* Estilos para o cabeçalho */
 
 header {
@@ -20,11 +28,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-
-    color: black; 
-
     color: #333; 
-
 }
 
 nav ul li a:hover {
@@ -32,17 +36,14 @@ nav ul li a:hover {
 }
 
 /* Estilos para o footer */
+
 footer {
-    background-color: #d9d9d9; /* Cor de fundo cinza claro */
+    background-color: #d9d9d9;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-
-footer img {
-    margin-bottom: 20px;
 }
 
 footer h3 {
@@ -54,6 +55,9 @@ footer ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 footer ul li {
@@ -66,3 +70,19 @@ footer ul li:last-child {
     margin-bottom: 0;
 }
 
+.imagens-rodape {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.link-estilizado{
+    margin: 10px;
+    text-decoration: none;
+    color: #333; 
+}
+
+.link-estilizado:hover {
+    color: #666; 
+}

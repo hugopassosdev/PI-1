@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>workaki</title>
     <link rel="stylesheet" href="/estilos/headerAndFooter.css">
-    <link rel="stylesheet" href="/estilos/indexStyle.css">
+    <link rel="stylesheet" href="/estilos/globalStyle.css">
 </head>
 
 <body>
@@ -17,14 +17,12 @@
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./educacao.html">Educação</a></li>
-                <li><a href="#">Comunidade</a></li>
+                <li><a href="./comunidade.html">Comunidade</a></li>
                 <li><a href="/avaliacao.html">Avaliações</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Suporte</a></li>
+                <li><a href="./suporte.html">Suporte</a></li>
                 <li><a href="./login.html">Login</a></li>
-                <li><a href="meus-servicos.html">Login prestador</a></li>
-            </ul>
+         <!--   <li><a href="meus-servicos.html">Login prestador</a></li> -->
+        </ul>
         </nav>
     </header>
     <!-- main -->
@@ -40,7 +38,7 @@
                 <div class="anuncios-em-destaque-div-card">
                     <img decoding="async" src="/img/soldador.png" alt="soldador">
                     <h3>João Silva</h3>
-                    <h4>Soldador</h4>
+                    <h4><em>Soldador</em></h4>
                     <p>Soldador especializado em manutenção de portões, grades e janelas. Garanta durabilidade e
                         segurança para a sua casa!</p>
                 </div>
@@ -49,7 +47,7 @@
                 <div class="anuncios-em-destaque-div-card">
                     <img decoding="async" src="/img/webdesigner.png" alt="webdesigner">
                     <h3>Helena Peixoto</h3>
-                    <h4>Web Designer</h4>
+                    <h4><em>Web Designer</em></h4>
                     <p>"Crie um site impressionante com nossos serviços de web design. Designs personalizados para
                         atender às suas necessidades online."</p>
                 </div>
@@ -58,6 +56,7 @@
                 <div class="anuncios-em-destaque-div-card">
                     <img decoding="async" src="/img/baba.png" alt="babá">
                     <h3>Isa Oliveira</h3>
+                    <h4><em>Babá</em></h4>
                     <p>Contrate uma babá confiável para cuidar com carinho e segurança das suas crianças. Paz de
                         espírito para pais ocupados.</p>
                 </div>
@@ -66,57 +65,88 @@
                 <div class="anuncios-em-destaque-div-card">
                     <img decoding="async" src="/img/arquiteto.png" alt="arquiteto">
                     <h3>Enzo Valentin</h3>
-                    <p>Arquitetura contemporânea com um toque jovem. Soluções inovadoras para espaços que refletem sua personalidade e estilo de vida.</p>
+                    <h4><em>Arquiteto</em></h4>
+                    <p>Arquitetura contemporânea com um toque jovem. Soluções inovadoras para espaços que refletem sua
+                        personalidade e estilo de vida.</p>
                 </div>
             </div>
         </section>
 
-        <h2 class="categorias">Categorias de serviço</h2>
-        <div class="servicos">
-            <fieldset>
-                <div class="destaque">
-                    <legend>Serviços</legend>
-                    <div class="input-group">
-                        <label for="categoria">Categoria:</label>
-                        <select name="categoria">
-                            <option value="cat1">Categoria 1</option>
-                            <option value="cat2">Categoria 2</option>
-                            <option value="cat3">Categoria 3</option>
-                        </select>
-                    </div>
-                    <div class="input-group">
-                        <label for="palavra-chave">Pesquisa por palavra chave:</label>
-                        <input type="text">
-                    </div>
-                    <div class="input-group">
-                        <label for="localidade">Localidade:</label>
-                        <select name="localidade">
-                            <option value="loc1">Localidade 1</option>
-                            <option value="loc2">Localidade 2</option>
-                            <option value="loc3">Localidade 3</option>
-                        </select>
-                    </div>
-                    <ul class="categorias-lista">
-                        <li>Categoria 1</li>
-                        <li>Categoria 2</li>
-                        <li>Categoria 3</li>
-                        <li>Categoria 4</li>
-                        <li>Categoria 5</li>
-                        <li>Categoria 6</li>
-                        <li>Categoria 7</li>
-                        <li>Categoria 8</li>
-                        <li>Categoria 9</li>
-                        <li>Categoria 10</li>
-                    </ul>
+        <!-- Categorias de serviço -->
+        <section class="categorias-servicos">
+            <div class="servicos">
+                <h2>Pesquise por serviços</h2>
+                <form>
+                    <input type="text" placeholder="Digite uma palavra-chave" name="search">
+                    <input type="submit" value="Pesquisar">
+                </form>
 
+                <h3>Serviços em Destaque</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <h4>Design Gráfico</h4>
+                        <img src="/img/design-grafico.png" alt="Imagem do serviço de Design Gráfico">
+                        <a href="#">Ver mais</a>
+                    </div>
+                    <div class="card">
+                        <h4>Soldador</h4>
+                        <img src="/img/soldador.png" alt="Imagem do serviço de Soldador">
+                        <a href="#">Ver mais</a>
+                    </div>
+                    <div class="card">
+                        <h4>Web Designer</h4>
+                        <img src="/img/webdesigner.png" alt="Imagem do serviço de Soldador">
+                        <a href="#">Ver mais</a>
+                    </div>
+                    <div class="card">
+                        <h4>Programador</h4>
+                        <img src="/img/programador.png" alt="Imagem do serviço de Programador">
+                        <a href="#">Ver mais</a>
+                    </div>
+                    <div class="card">
+                        <h4>Cuidador de pets</h4>
+                        <img src="/img/cuidador-de-pets.png" alt="Imagem do serviço de Cuidador de pets">
+                        <a href="#">Ver mais</a>
+                    </div>
+                    <div class="card">
+                        <h4>Arquiteto</h4>
+                        <img src="/img/arquiteto.png" alt="Imagem do serviço de Arquiteto">
+                        <a href="#">Ver mais</a>
+                    </div>
+                    <div class="card">
+                        <h4>Encanador</h4>
+                        <img src="/img/encanador.png" alt="Imagem do serviço de Encanador">
+                        <a href="#">Ver mais</a>
+                    </div>
+                    <div class="card">
+                        <h4>Personal Trainer</h4>
+                        <img src="/img/personal-trainer.png" alt="Imagem do serviço de Personal Trainer">
+                        <a href="#">Ver mais</a>
+                    </div>
+                    <div class="card">
+                        <h4>Reforço escolar</h4>
+                        <img src="/img/reforço-escolar.png" alt="Imagem do serviço de Reforço Escolar">
+                        <a href="#">Ver mais</a>
+                    </div>
+                    <div class="card">
+                        <h4>Professor de música</h4>
+                        <img src="/img/professor-de-musica.png" alt="Imagem do serviço de Professor de Música">
+                        <a href="#">Ver mais</a>
+                    </div>
+                </div>
 
-            </fieldset>
-        </div>
-        </div>
+                <a class="link-estilizado" href="#">Ver todos os serviços</a>
+            </div>
+
+            </div>
+        </section>
     </main>
     <!-- rodapé -->
     <footer>
-        <img src="/img/workaki-logo.svg" alt="logo workaki" width="200">
+        <div class="imagens-rodape">
+            <img src="/img/workaki-logo-line.png" alt="logo workaki" width="300px">
+            <img src="/img/proz-logo.svg" alt="logo proz" width="200px">
+        </div>
         <h3>Desenvolvido por:</h3>
         <ul>
             <li>Hugo Ornelas</li>
@@ -124,7 +154,7 @@
             <li>Magnus Bittencourt</li>
             <li>Vinicius Gomes</li>
         </ul>
-        <img src="/img/proz-logo.svg" alt="logo proz" width="200">
+        <h3><a class="link-estilizado" href="politica.html">Política de privacidade</a></h3>
     </footer>
 </body>
 

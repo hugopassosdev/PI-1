@@ -1,0 +1,18 @@
+.conteudo-relacionado {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.conteudo-relacionado h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.conteudo-relacionado p {
+    color: #666;
+    line-height: 1.6;
+}

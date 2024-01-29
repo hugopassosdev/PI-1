@@ -12,23 +12,21 @@
 <body>
     <!-- cabeçalho -->
     <header>
-        <img  src="/img/workaki-logo-line.png" alt="logo workaki" width="200">
+        <img src="/img/workaki-logo-line.png" alt="logo workaki" width="200">
         <nav>
-            <ul >
+            <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./educacao.html">Educação</a></li>
-                <li><a href="#">Comunidade</a></li>
-                <li><a href="./avaliacao.html">Avaliações</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Suporte</a></li>
+                <li><a href="./comunidade.html">Comunidade</a></li>
+                <li><a href="/avaliacao.html">Avaliações</a></li>
+                <li><a href="./suporte.html">Suporte</a></li>
                 <li><a href="./login.html">Login</a></li>
-                <li><a href="meus-servicos.html">Login prestador</a></li>
-            </ul>
+         <!--   <li><a href="meus-servicos.html">Login prestador</a></li> -->
+        </ul>
         </nav>
     </header>
     <!-- main -->
-
+    <br>
     <main class="Formulario">
         
         <fieldset id = "inscreveId">
@@ -60,9 +58,9 @@
                 </section>
             </div>
         </form>
-     
+        <br>
         <div id ="checkbox1">
-            <input type="checkbox" name="Politica" id="politica"/><a href="./politica.html">Politica de Privacidade</a>
+            <input type="checkbox" name="Politica" id="politica"/><a class="link-estilizado" href="./politica.html">Politica de Privacidade</a>
         </div>
         <div id ="checkbox2">
             <input type="checkbox" name="Prestador" id="prestador"/><p>Prestador?</p>
@@ -70,13 +68,17 @@
         <div>
             <button id="botaoCriar"><a href="./index.html">CriarConta</a></button>
         </div>
+        <br>
     
 
 
     </main>
     <!-- rodapé -->
     <footer>
-        <img src="/img/workaki-logo.svg" alt="logo workaki" width="200">
+        <div class="imagens-rodape">
+            <img src="/img/workaki-logo-line.png" alt="logo workaki" width="300px">
+            <img src="/img/proz-logo.svg" alt="logo proz" width="200px">
+        </div>
         <h3>Desenvolvido por:</h3>
         <ul>
             <li>Hugo Ornelas</li>
@@ -84,7 +86,7 @@
             <li>Magnus Bittencourt</li>
             <li>Vinicius Gomes</li>
         </ul>
-        <img src="/img/proz-logo.svg" alt="logo proz" width="200">
+        <h3><a class="link-estilizado" href="politica.html">Política de privacidade</a></h3>
     </footer>
 </body>
 

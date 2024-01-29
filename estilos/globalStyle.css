@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: Arial, sans-serif;
 }
 
 .banner {
@@ -64,17 +64,6 @@
     margin-bottom: 20px;
 }
 
-.categorias {
-    color: #999; 
-    margin-bottom: 20px; 
-}
-
-.servicos {
-    background-color: #e6e6e6; 
-    padding: 20px;
-    border-radius: 8px;
-    width: 83%;
-}
 
 fieldset {
     border: 1px solid #ccc;
@@ -130,7 +119,6 @@ ul.categorias-lista li {
     margin: 10px;
     padding: 20px;
     box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
     background-color: white;
     transition: all 0.5s ease;
 }
@@ -147,6 +135,94 @@ ul.categorias-lista li {
 
 .anuncios-em-destaque-div-card h3 {
     margin-bottom: 0px;
+}
+
+
+/* Estilos sugeridos */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 0 15%; /* Isso fará com que cada card ocupe 18% da largura total, permitindo que até 5 cards apareçam em uma linha */
+    margin: 1%; /* Isso adiciona um pequeno espaço entre os cards */
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.servicos {
+    width: 100%;
+    padding: 20px;
+}
+
+.servicos form {
+    margin-bottom: 20px;
+}
+
+.servicos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.servicos .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.servicos .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+}
+
+.servicos .card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h4 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
 }
 
 /* Estilos para dispositivos móveis */

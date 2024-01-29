@@ -124,8 +124,15 @@ input[type="checkbox"] {
 #botaoCriar a {
     color: white;
     text-decoration: none;
-
 }
 
+.link-estilizado{
+    margin: 2px;
+    text-decoration: none;
+    color: #333; 
+}
 
+.link-estilizado:hover {
+    color: #666; 
+}
 
