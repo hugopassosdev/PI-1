@@ -14,46 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
-/*anuncio em destaque*/
-
-.destaque {
-    background-color: #f5f5f5; 
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 30px; 
-    width: 83%;
-}
-
-.destaque h2 {
-    color: #999; 
-    margin-bottom: 10px;
-}
-
-.quadrilatero {
-    background-color: #e6e6e6; 
-    border: 1px solid #ccc; 
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.quadrilatero legend {
-    color: rgb(114, 114, 136); 
-}
-
-.quadrilatero ul {
-    list-style: none;
-    padding: 0;
-}
-
-.quadrilatero ul li {
-    color: rgb(71, 71, 207); 
-    margin-bottom: 5px;
-}
-
-
 
 /*categoria de serviços*/
 
@@ -64,7 +25,6 @@
     margin-bottom: 20px;
 }
 
-
 fieldset {
     border: 1px solid #ccc;
     padding: 15px;
@@ -73,32 +33,31 @@ fieldset {
 }
 
 .input-group {
-    margin-bottom: 15px; /* Espaço entre os grupos de input */
+    margin-bottom: 15px;
 }
 
 label {
-    display: block; /* Colocar os labels em linhas separadas */
-    margin-bottom: 5px; /* Espaço abaixo dos labels */
+    display: block;
+    margin-bottom: 5px;
 }
 
-select,
-input[type="text"] {
-    width: 100%; /* Preencher a largura disponível */
-    padding: 8px; /* Espaçamento interno */
-    border-radius: 5px; /* Borda arredondada */
-    border: 1px solid #ccc; /* Borda */
+select, input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 ul.categorias-lista {
-    list-style: none; /* Remover marcadores de lista */
-    padding: 0; /* Remover espaçamento padrão */
+    list-style: none;
+    padding: 0; 
 }
 
 ul.categorias-lista li {
-    margin-bottom: 5px; /* Espaço entre os itens da lista */
+    margin-bottom: 5px; 
 }
 
-/* Estilos comuns para os cards */
+/* Estilos comuns para os cards dinâmicos */
 .anuncios-em-destaque {
     margin: 0;
 }
@@ -137,8 +96,7 @@ ul.categorias-lista li {
     margin-bottom: 0px;
 }
 
-
-/* Estilos sugeridos */
+/* Estilo cards comuns */
 
 .card-container {
     display: flex;
@@ -148,7 +106,7 @@ ul.categorias-lista li {
 
 .card {
     flex: 1 0 15%; /* Isso fará com que cada card ocupe 18% da largura total, permitindo que até 5 cards apareçam em uma linha */
-    margin: 1%; /* Isso adiciona um pequeno espaço entre os cards */
+    margin: 1%;
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
@@ -226,6 +184,7 @@ form input[type="submit"] {
 }
 
 /* Estilos para dispositivos móveis */
+
 @media (max-width: 768px) {
     .banner {
         display: none;
