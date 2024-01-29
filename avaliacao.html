@@ -6,32 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avaliação</title>
     <link rel="stylesheet" href="/estilos/headerAndFooter.css">
+    <link rel="stylesheet" href="/estilos/globalStyle.css">
+
 </head>
 
 <body>
+    <!-- cabeçalho -->
     <header>
-
-        <a href="/index.html"><img src="/img/workaki-logo-line.png" alt="logo workaki" width="200"></a>
+        <img src="/img/workaki-logo-line.png" alt="logo workaki" width="200">
         <nav>
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./educacao.html">Educação</a></li>
-                <li><a href="#">Comunidade</a></li>
-                <li><a href="./avaliacao.html">Avaliações</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Suporte</a></li>
+                <li><a href="./comunidade.html">Comunidade</a></li>
+                <li><a href="/avaliacao.html">Avaliações</a></li>
+                <li><a href="./suporte.html">Suporte</a></li>
                 <li><a href="./login.html">Login</a></li>
-                <li><a href="meus-servicos.html">Login prestador</a></li>
+         <!--   <li><a href="meus-servicos.html">Login prestador</a></li> -->
             </ul>
         </nav>
-
-        <h1>Avaliação do Serviço</h1>
     </header>
 
     <main>
+        <!-- Avaliações -->
+        <section class="categorias-servicos">
+            <div class="servicos">
 
+                <h3>Avaliações em destaque</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <h4>Helena Seixas - Empresária</h4>
+                        <img src="/img/regularizar-negocio.png" alt="Imagem de uma mulhar abrindo uma massa">
+                        <p><em>Com o workaki eu consegui contratar serviços de manutenção se forma simples e
+                                rápida!</em></p>
+                    </div>
+                    <div class="card">
+                        <h4>Renata Rios - Estudante</h4>
+                        <img src="/img/cliente1.png" alt="Imagem de uma mulher">
+                        <p><em>Consegui encontrar bons professores de Inglês na plataforma!</em></p>
+                    </div>
+                    <div class="card">
+                        <h4>Fábio Dias - Professor de Artes</h4>
+                        <img src="/img/cliente2.png" alt="Imagem de um homem sorrindo">
+                        <p><em>Com o workaki eu consegui encontrar todos os prestadores de serviço para o meu
+                                casamento.</em></p>
+                    </div>
+                    <div class="card">
+                        <h4>Ana Peixoto - Enxadrista</h4>
+                        <img src="/img/cliente3.png" alt="Imagem de uma mulher de costas.">
+                        <p><em>Gostei da plataforma. Bem simples e direta ao ponto.</em></p>
+                    </div>
+                    <div class="card">
+                        <h4>Artur Andrade - Personal Trainer</h4>
+                        <img src="/img/personal-trainer.png" alt="Imagem de um homem">
+                        <p><em>Minha carteira de alunos aumentou em 30% após utilização da plataforma workaki.</em></p>                    </div>
+                </div>
+                <a class="link-estilizado" href="#">Ver todos as avaliações de clientes e prestadores de serviços.</a>
+
+            </div>
+        </section>
+        <!--
         <section>
+            <h1>Avaliação do Serviço</h1>
             <div class="avaliacao">
                 <img src="/img/cliente1.png" alt="Cliente 1" width="200">
                 <h3>Cliente 1</h3>
@@ -50,11 +86,14 @@
                 <p>Considerei o serviço satisfatório.</p>
             </div>
         </section>
-
+-->
     </main>
 
     <footer>
-        <img src="/img/workaki-logo.svg" alt="logo workaki" width="200">
+        <div class="imagens-rodape">
+            <img src="/img/workaki-logo-line.png" alt="logo workaki" width="300px">
+            <img src="/img/proz-logo.svg" alt="logo proz" width="200px">
+        </div>
         <h3>Desenvolvido por:</h3>
         <ul>
             <li>Hugo Ornelas</li>
@@ -62,7 +101,7 @@
             <li>Magnus Bittencourt</li>
             <li>Vinicius Gomes</li>
         </ul>
-        <img src="/img/proz-logo.svg" alt="logo proz" width="200">
+        <h3><a class="link-estilizado" href="politica.html">Política de privacidade</a></h3>
     </footer>
 
 </body>

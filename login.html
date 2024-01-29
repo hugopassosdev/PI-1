@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/headerAndFooter.css">
+    <link rel="stylesheet" href="./estilos/login.css">
 </head>
 
 <body>
@@ -16,13 +17,11 @@
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./educacao.html">Educação</a></li>
-                <li><a href="#">Comunidade</a></li>
-                <li><a href="./avaliacao.html">Avaliações</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Suporte</a></li>
+                <li><a href="./comunidade.html">Comunidade</a></li>
+                <li><a href="/avaliacao.html">Avaliações</a></li>
+                <li><a href="./suporte.html">Suporte</a></li>
                 <li><a href="./login.html">Login</a></li>
-                <li><a href="meus-servicos.html">Login prestador</a></li>
+                <!--   <li><a href="meus-servicos.html">Login prestador</a></li> -->
             </ul>
         </nav>
     </header>
@@ -30,7 +29,7 @@
     <main>
         <form>
             <fieldset>
-        
+
                 <legend>Login</legend>
                 <section>
                     <label for="text">Usuário</label>
@@ -40,20 +39,23 @@
                     <label for="password">Senha</label>
                     <input type="password">
                     <div>
-                        <input type="checkbox" name="Esqueceu sua senha" /><label>Esquece sua senha?Clique <a
-                                href="https://www.google.com.br/?hl=pt-BR">Aqui</a></label>
+                        <label>Esquece sua senha?Clique <a class="link-estilizado"
+                                href="https://www.google.com.br/?hl=pt-BR">aqui</a></label>
                     </div>
                 </section>
                 <button><a href="./index.html">Entrar</a></button>
-                <div>
-                    <a href="./cadastro.html">Cadastrar</a>
+                <div id="div-cadastro">
+                    <a class="link-estilizado" href="./cadastro.html">Cadastrar</a>
                 </div>
             </fieldset>
         </form>
     </main>
     <!-- rodapé -->
     <footer>
-        <img src="/img/workaki-logo.svg" alt="logo workaki" width="200">
+        <div class="imagens-rodape">
+            <img src="/img/workaki-logo-line.png" alt="logo workaki" width="300px">
+            <img src="/img/proz-logo.svg" alt="logo proz" width="200px">
+        </div>
         <h3>Desenvolvido por:</h3>
         <ul>
             <li>Hugo Ornelas</li>
@@ -61,7 +63,7 @@
             <li>Magnus Bittencourt</li>
             <li>Vinicius Gomes</li>
         </ul>
-        <img src="/img/proz-logo.svg" alt="logo proz" width="200">
+        <h3><a class="link-estilizado" href="politica.html">Política de privacidade</a></h3>
     </footer>
 </body>
 

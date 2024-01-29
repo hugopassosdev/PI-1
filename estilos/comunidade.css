@@ -1,0 +1,59 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input[type="text"], form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.postagem {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.titulo-postagem {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.conteudo-postagem, .conteudo-resposta {
+    color: #666;
+    line-height: 1.6;
+}
+
+.info-postagem, .info-resposta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: #999;
+    margin-top: 10px;
+}
+
+.resposta {
+    margin-top: 20px;
+    padding: 10px;
+    border-left: 2px solid #ccc;
+}
