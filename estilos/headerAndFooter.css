@@ -1,9 +1,37 @@
-/* Estilos gerais */
+/* Estilos gerais do projeto e tipografia da página */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
+}
+ 
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #293651;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 22px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: #00a78e;
+}
+
+.apresentacao{
+    font-size: 15px;
+    letter-spacing: 1.2pt;
+    color: #76778c;
+    line-height: 20px;
+    text-align: center;
 }
 
 /* Estilos para o cabeçalho */
