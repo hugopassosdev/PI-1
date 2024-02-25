@@ -7,6 +7,11 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/headerAndFooter.css">
     <link rel="stylesheet" href="./estilos/login.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="./scripts/login-google.js" ></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" defer>
+    <script src="./scripts/login-normal.js" defer></script>
+
 </head>
 
 <body>
@@ -24,25 +29,39 @@
             </ul>
         </nav>
     </header>
+
+
     <!-- main -->
     <main>
         <form>
-            <fieldset>
+  <!-- In the callback, you would hide the gSignInWrapper element on a
+  successful sign in -->
+  <div id="gSignInWrapper">
+    <span class="label">Fazer Login com Google:</span>
+    <div id="customBtn" class="customGPlusSignIn">
+      <span class="icon"></span>
+      <span class="buttonText">Google</span>
+    </div>
+  </div>
+  
+  <script>startApp()</script>
 
-                <legend class="titulo">Login</legend>
                 <section>
-                    <label for="text" class="subtitulo">Usuário</label>
-                    <input type="text">
+
+                    <label for="text" class="subtitulo">Nome do Usuário</label>
+                    <div id = "name">
+                    <input id = "email" type="email">
+                    </div>       
                 </section>
                 <section>
                     <label for="password" class="subtitulo">Senha</label>
-                    <input type="password">
+                    <input type="password" id="senha" autocomplete="current-password">
                     <div>
                         <label>Esquece sua senha? Clique <a class="link-estilizado"
                                 href="https://www.google.com.br/?hl=pt-BR">aqui</a>.</label>
                     </div>
                 </section>
-                <button><a href="./index.html">Entrar</a></button>
+                <button  id="btnEntrar">Entrar</button>
                 <div id="div-cadastro">
                     <a class="link-estilizado" href="./cadastro.html">Cadastrar</a>
                 </div>
