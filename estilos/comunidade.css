@@ -25,6 +25,15 @@ form input[type="submit"] {
     cursor: pointer;
 }
 
+label {
+    margin-bottom: .2rem;
+    position: relative;
+  }
+
+label:not(:first-of-type){
+    margin-top: 1rem;
+}
+
 .postagem {
     background-color: #f8f9fa;
     padding: 20px;
@@ -55,3 +64,39 @@ form input[type="submit"] {
     padding: 10px;
     border-left: 2px solid #ccc;
 }
+
+.helper-text {
+    display: none;
+    font-size: .8rem;
+    color: darkred;
+  }
+
+/* ---------- Estilos dinâmicos ---------- */
+
+  input.error {
+    border: solid 5px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+  textarea.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  textarea.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+
+  .visible {
+    display: block;
+  }

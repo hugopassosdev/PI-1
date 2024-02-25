@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/estilos/headerAndFooter.css">
     <link rel="stylesheet" href="/estilos/globalStyle.css">
     <link rel="stylesheet" href="/estilos/comunidade.css">
-
+    <script src="/scripts/comunidade.js" defer></script>
 </head>
 
 <body>
@@ -32,60 +32,76 @@
         <section>
             <h2 class="titulo">Fórum da Comunidade</h2>
             <form action="">
-                <input type="text" name="titulo" placeholder="Título do tópico">
-                <textarea name="mensagem" placeholder="Escreva sua mensagem" rows="5"></textarea>
+                <input type="text" id="tittle" name="tittle" placeholder="Título do tópico (campo obrigatório)">
+                <p id="tittle-helper" class="helper-text">Mensagem de ajuda</p>
+
+                <input type="text" id="username" name="username" placeholder="Autor (campo obrigatório)">
+                <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
+
+                <textarea id="message" name="message" placeholder="Escreva sua mensagem (campo obrigatório)"
+                    rows="5"></textarea>
+                <p id="message-helper" class="helper-text">Mensagem de ajuda</p>
+
                 <input type="submit" value="Postar">
+
             </form>
 
         </section>
         <!-- Postagem 1 -->
-        <div class="postagem">
-            <h3 class="titulo-postagem">Três dias sem energia na Rua 2!</h3>
-            <p class="conteudo-postagem">Amigos, precisamos ser mais incisivos na companhia de enrgia local! Não é possível que eles não tenham um transformador reserva!</p>
-            <div class="info-postagem">
-                <span class="autor-postagem">Postado por: João Ricardo</span>
-                <span class="data-postagem">13-01-2024</span>
-            </div>
-            <!-- Respostas -->
-            <div class="resposta">
-                <p class="conteudo-resposta">Fui lá hoje e informaram que a manutenção será feita até às 23:00!✌</p>
-                <div class="info-resposta">
-                    <span class="autor-resposta">Respondido por: Bruno Brito</span>
-                    <span class="data-resposta">13-01-2024</span>
+        <div class="postagens">
+            <div class="postagem">
+                <h3 class="titulo-postagem">Três dias sem energia na Rua 2!</h3>
+                <p class="conteudo-postagem">Amigos, precisamos ser mais incisivos na companhia de enrgia local! Não é
+                    possível que eles não tenham um transformador reserva!</p>
+                <div class="info-postagem">
+                    <span class="autor-postagem">Postado por: João Ricardo</span>
+                    <span class="data-postagem">13-01-2024</span>
+                </div>
+                <!-- Respostas -->
+                <div class="resposta">
+                    <p class="conteudo-resposta">Fui lá hoje e informaram que a manutenção será feita até às 23:00!✌</p>
+                    <div class="info-resposta">
+                        <span class="autor-resposta">Respondido por: Bruno Brito</span>
+                        <span class="data-resposta">13-01-2024</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Postagem 2 -->
-        <div class="postagem">
-            <h3 class="titulo-postagem">Serviço voluntário de reforço escolar ✎</h3>
-            <p class="conteudo-postagem">Sou estudande de Licenciatura em matemática e estou oferecendo aulas gratuitas de reforço em matemática para alunos do ensino fundamental. Tenho uma agenda de 2 horas por e, caso tenha interesse, pode entrar em contato por este chat.</p>
-            <div class="info-postagem">
-                <span class="autor-postagem">Postado por: Guilherme Arruda</span>
-                <span class="data-postagem">13-01-2024</span>
-            </div>
-            <!-- Respostas -->
-            <div class="resposta">
-                <p class="conteudo-resposta">Meu filho está precisando de ajuda nesta disciplina e eu não consigo ajudá-lo. Ficaria muito feliz se você pudesse ajudá-lo!</p>
-                <div class="info-resposta">
-                    <span class="autor-resposta">Respondido por: Fátima Silva</span>
-                    <span class="data-resposta">13-01-2024</span>
+            <!-- Postagem 2 -->
+            <div class="postagem">
+                <h3 class="titulo-postagem">Serviço voluntário de reforço escolar ✎</h3>
+                <p class="conteudo-postagem">Sou estudande de Licenciatura em matemática e estou oferecendo aulas
+                    gratuitas de reforço em matemática para alunos do ensino fundamental. Tenho uma agenda de 2 horas
+                    por e, caso tenha interesse, pode entrar em contato por este chat.</p>
+                <div class="info-postagem">
+                    <span class="autor-postagem">Postado por: Guilherme Arruda</span>
+                    <span class="data-postagem">13-01-2024</span>
+                </div>
+                <!-- Respostas -->
+                <div class="resposta">
+                    <p class="conteudo-resposta">Meu filho está precisando de ajuda nesta disciplina e eu não consigo
+                        ajudá-lo. Ficaria muito feliz se você pudesse ajudá-lo!</p>
+                    <div class="info-resposta">
+                        <span class="autor-resposta">Respondido por: Fátima Silva</span>
+                        <span class="data-resposta">13-01-2024</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Postagem 3 -->
-        <div class="postagem">
-            <h3 class="titulo-postagem">Votação do conselho tutelar da nossa região!</h3>
-            <p class="conteudo-postagem">Amigos, não se esqueçam que no próximo domingo teremos votação para o conselho tutelar aqui do bairro. Seu voto é muito importante par todos!</p>
-            <div class="info-postagem">
-                <span class="autor-postagem">Postado por: Cleber Caixeta</span>
-                <span class="data-postagem">13-01-2024</span>
-            </div>
-            <!-- Respostas -->
-            <div class="resposta">
-                <p class="conteudo-resposta">Já estave esquecendo, obrigada!</p>
-                <div class="info-resposta">
-                    <span class="autor-resposta">Respondido por: Luana Lafaete</span>
-                    <span class="data-resposta">13-01-2024</span>
+            <!-- Postagem 3 -->
+            <div class="postagem">
+                <h3 class="titulo-postagem">Votação do conselho tutelar da nossa região!</h3>
+                <p class="conteudo-postagem">Amigos, não se esqueçam que no próximo domingo teremos votação para o
+                    conselho tutelar aqui do bairro. Seu voto é muito importante par todos!</p>
+                <div class="info-postagem">
+                    <span class="autor-postagem">Postado por: Cleber Caixeta</span>
+                    <span class="data-postagem">13-01-2024</span>
+                </div>
+                <!-- Respostas -->
+                <div class="resposta">
+                    <p class="conteudo-resposta">Já estave esquecendo, obrigada!</p>
+                    <div class="info-resposta">
+                        <span class="autor-resposta">Respondido por: Luana Lafaete</span>
+                        <span class="data-resposta">13-01-2024</span>
+                    </div>
                 </div>
             </div>
         </div>
