@@ -46,6 +46,7 @@ form fieldset {
 form div {
     font-size: 18px;
     margin: 0;
+
 }
 #gSignInWrapper{
     justify-content: center;
@@ -69,12 +70,13 @@ form div {
   #customBtn:hover {
     cursor: pointer;
   }
+
   span.label {
-    font-family: serif;
-    font-weight: normal;
-   
-    
+    font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: bold;
+    font-size: 1rem;
   }
+
   span.icon {
     
     background: url('../img/web_neutral_sq_na@1x.png') transparent 8px 70% no-repeat;
@@ -83,6 +85,7 @@ form div {
     width: 40px;
     height: 42px;
   }
+
   span.buttonText {
     display: inline-block;
     vertical-align: middle;
@@ -93,9 +96,6 @@ form div {
     /* Use the Roboto font that is loaded in the <head> */
     font-family: 'Roboto', sans-serif;
   }
-  
-
-
 
 form a {
     text-decoration:solid;
