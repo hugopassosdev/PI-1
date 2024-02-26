@@ -47,32 +47,55 @@ form div {
     font-size: 18px;
     margin: 0;
 }
-
-
-
-#google{
-    background-color: white;
-    border-radius: 7px;
-    color: #D9D9D9;
-    padding: 5px;
+#gSignInWrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-#google img {
-    width: 25px; 
-    height: 25px;
-}
+#customBtn {
+    margin-top: 5px;
+    display: inline-block;
+    background:#F2F2F2;
+    color: #444;
+    width: 190px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    margin-bottom: 10px1;
+  }
+  #customBtn:hover {
+    cursor: pointer;
+  }
+  span.label {
+    font-family: serif;
+    font-weight: normal;
+   
+    
+  }
+  span.icon {
+    
+    background: url('../img/web_neutral_sq_na@1x.png') transparent 8px 70% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 42px;
+  }
+  span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family: 'Roboto', sans-serif;
+  }
+  
 
-#facebook{
-    background-color: white;
-    border-radius: 7px;
-    color: #D9D9D9;
-    padding: 5px;
-}
 
-#facebook img{
-    width: 25px; 
-    height: 25px;  
-}
 
 form a {
     text-decoration:solid;

@@ -7,6 +7,11 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="/estilos/headerAndFooter.css">
     <link rel="stylesheet" href="./estilos/cadastro.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="./scripts/login-google.js"></script>
+    <script src="./scripts/cadastro.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    
 </head>
 
 <body>
@@ -25,27 +30,31 @@
         </nav>
     </header>
     <!-- main -->
+    
     <br>
     <main class="Formulario">
 
+       
         <fieldset id="inscreveId">
             <h1>INSCREVA-SE</h1>
         </fieldset>
+   
 
         <form action="">
-            <fieldset id="google">
-                <div class="btn-rede-social"><img src="./img/google-icon.svg"><a
-                        href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">Continuar com Google</a></div>
-            </fieldset>
-            <fieldset id="facebook">
-                <div class="btn-rede-social"><img src="./img/facebook-icon.svg"><a
-                        href="https://www.facebook.com/?locale=pt_BR">Continuar com Facebook</a></div>
+            <div id="gSignInWrapper">
+                <span class="label">Fazer Login com Google:</span>
+                <div id="customBtn" class="customGPlusSignIn">
+                  <span class="icon" id=""></span>
+                  <span class="buttonText">Google</span>
                 </div>
-            </fieldset>
-
+              </div>
+              <script>startApp()</script>
+    
+      
             <h3 id="outra">Ou</h3>
             <div>
                 <section>
+                    <div id ="name"></div>
                     <label for="text" id="labelEmail">Email</label>
                     <input type="text" id="email">
                 </section>
@@ -55,7 +64,7 @@
                 </section>
                 <section>
                     <label for="password">Confirme sua senha</label>
-                    <input type="password">
+                    <input type="password" id="confirmarSenha">
                 </section>
             </div>
         </form>
@@ -69,7 +78,7 @@
             <p>Prestador?</p>
         </div>
         <div>
-            <button id="botaoCriar"><a href="./index.html">CriarConta</a></button>
+            <button id="botaoCriar">Criar Conta</button>
         </div>
         <br>
 
