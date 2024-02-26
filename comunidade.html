@@ -31,7 +31,7 @@
         <!-- Fórum -->
         <section>
             <h2 class="titulo">Fórum da Comunidade</h2>
-            <form action="">
+            <form action="" id="formulario">
                 <input type="text" id="tittle" name="tittle" placeholder="Título do tópico (campo obrigatório)">
                 <p id="tittle-helper" class="helper-text">Mensagem de ajuda</p>
 
@@ -42,70 +42,17 @@
                     rows="5"></textarea>
                 <p id="message-helper" class="helper-text">Mensagem de ajuda</p>
 
-                <input type="submit" value="Postar">
+                <input type="submit" value="Postar" id="postar-btn">
 
             </form>
 
         </section>
-        <!-- Postagem 1 -->
+        
         <div class="postagens">
-            <div class="postagem">
-                <h3 class="titulo-postagem">Três dias sem energia na Rua 2!</h3>
-                <p class="conteudo-postagem">Amigos, precisamos ser mais incisivos na companhia de enrgia local! Não é
-                    possível que eles não tenham um transformador reserva!</p>
-                <div class="info-postagem">
-                    <span class="autor-postagem">Postado por: João Ricardo</span>
-                    <span class="data-postagem">13-01-2024</span>
-                </div>
-                <!-- Respostas -->
-                <div class="resposta">
-                    <p class="conteudo-resposta">Fui lá hoje e informaram que a manutenção será feita até às 23:00!✌</p>
-                    <div class="info-resposta">
-                        <span class="autor-resposta">Respondido por: Bruno Brito</span>
-                        <span class="data-resposta">13-01-2024</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Postagem 2 -->
-            <div class="postagem">
-                <h3 class="titulo-postagem">Serviço voluntário de reforço escolar ✎</h3>
-                <p class="conteudo-postagem">Sou estudande de Licenciatura em matemática e estou oferecendo aulas
-                    gratuitas de reforço em matemática para alunos do ensino fundamental. Tenho uma agenda de 2 horas
-                    por e, caso tenha interesse, pode entrar em contato por este chat.</p>
-                <div class="info-postagem">
-                    <span class="autor-postagem">Postado por: Guilherme Arruda</span>
-                    <span class="data-postagem">13-01-2024</span>
-                </div>
-                <!-- Respostas -->
-                <div class="resposta">
-                    <p class="conteudo-resposta">Meu filho está precisando de ajuda nesta disciplina e eu não consigo
-                        ajudá-lo. Ficaria muito feliz se você pudesse ajudá-lo!</p>
-                    <div class="info-resposta">
-                        <span class="autor-resposta">Respondido por: Fátima Silva</span>
-                        <span class="data-resposta">13-01-2024</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Postagem 3 -->
-            <div class="postagem">
-                <h3 class="titulo-postagem">Votação do conselho tutelar da nossa região!</h3>
-                <p class="conteudo-postagem">Amigos, não se esqueçam que no próximo domingo teremos votação para o
-                    conselho tutelar aqui do bairro. Seu voto é muito importante par todos!</p>
-                <div class="info-postagem">
-                    <span class="autor-postagem">Postado por: Cleber Caixeta</span>
-                    <span class="data-postagem">13-01-2024</span>
-                </div>
-                <!-- Respostas -->
-                <div class="resposta">
-                    <p class="conteudo-resposta">Já estave esquecendo, obrigada!</p>
-                    <div class="info-resposta">
-                        <span class="autor-resposta">Respondido por: Luana Lafaete</span>
-                        <span class="data-resposta">13-01-2024</span>
-                    </div>
-                </div>
-            </div>
+            <!-- Inserção de posts dinamicamente em JS-->
         </div>
     </main>
+    
     <!-- rodapé -->
     <footer>
         <div class="imagens-rodape">
@@ -121,6 +68,7 @@
         </ul>
         <h3><a class="link-estilizado" href="politica.html">Política de privacidade</a></h3>
     </footer>
+
 </body>
 
 </html>
