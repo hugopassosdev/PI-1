@@ -85,7 +85,7 @@ footer ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 5px;
 }
 
 footer ul li {
@@ -105,7 +105,7 @@ footer ul li:last-child {
 }
 
 .link-estilizado{
-    margin: 10px;
+    margin: 20px;
     text-decoration: none;
     color: #333; 
 }
